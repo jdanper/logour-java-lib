@@ -45,3 +45,6 @@ gradle-app.setting
 
 ### Gradle Patch ###
 **/build/
+/gradle/
+/.idea/
+/bin/
