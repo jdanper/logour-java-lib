@@ -53,7 +53,7 @@ class EventSender {
                 Failsafe.with(breaker).get(() -> {
                     final String eventJson = mapper.writeValueAsString(event);
                     final HttpRequest request = getRequest(eventJson);
-                    System.out.println(eventJson);
+                    
                     return httpClient.sendAsync(request, HttpResponse.BodyHandlers.ofString())
                             .thenApply(HttpResponse::statusCode)
                             .join();

@@ -47,4 +47,7 @@ gradle-app.setting
 **/build/
 /gradle/
 /.idea/
-/bin/
+.idea/fileTemplates/
+bin/test/
+out/
+src/test/
