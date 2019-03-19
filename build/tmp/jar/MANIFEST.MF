@@ -1,6 +1,0 @@
-Manifest-Version: 1.0
-Class-Path: log4j-core-2.11.1.jar log4j-api-2.11.1.jar jackson-databind-
- 2.9.8.jar failsafe-2.0.1.jar jackson-annotations-2.9.0.jar jackson-core
- -2.9.8.jar
-Main-Class: com.danieldsw2_at_gmail.logour.App
-
